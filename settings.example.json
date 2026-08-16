@@ -1,0 +1,19 @@
+{
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-5.6-sol",
+  "defaultThinkingLevel": "high",
+  "packages": ["npm:pi-web-access", "npm:pi-subagents"],
+  "theme": "github-dark-default",
+  "subagents": {
+    "agentOverrides": {
+      "researcher": {
+        "model": "openai-codex/gpt-5.6-sol",
+        "thinking": "high"
+      },
+      "reviewer": {
+        "model": "openai-codex/gpt-5.6-sol",
+        "thinking": "high"
+      }
+    }
+  }
+}

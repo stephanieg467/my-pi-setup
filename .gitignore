@@ -1,33 +1,43 @@
-# Dependencies
-node_modules/
+# Dependencies and generated output
+/node_modules/
+/dist/
+/coverage/
+*.tsbuildinfo
 
-# Downloaded/generated executables
-bin/
-
-# Pi runtime and private state
-sessions/
-/workflows/
-auth.json
-settings.json
-trust.json
-models.json
-models-store.json
-extensions/summaries/config.private.json
-extensions/summaries/config.private.json.*.tmp
-
-# Environment variables and secrets
-.env
-.env.*
-!.env.example
-*.pem
+# Local environment and credentials
+**/.env
+**/.env.*
+!**/.env.example
 *.key
+*.pem
+/auth.json
+/trust.json
+/models*.json
+/settings.json
+/credentials.json
+/credentials/
 
-# Logs and temporary files
-*.log
-*.tmp
-*.swp
+# Pi and extension runtime state
+/sessions/
+/logs/
+/.pi/
+/.pi-subagents/
+/artifacts/
+/output/
+/outputs/
+
+# Local planning and review artifacts
+/plan.md
+/progress.md
+/CONTEXT.md
+/docs/plans/
+/docs/adr/
+
+# Editor and operating-system files
+/.idea/
+/.vscode/
 .DS_Store
+*.swp
 
-# Local editor settings
-.vscode/
-.idea/
+# This repository intentionally publishes its global-instruction example.
+!/AGENTS.md

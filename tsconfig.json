@@ -1,14 +1,16 @@
 {
   "compilerOptions": {
-    "allowImportingTsExtensions": true,
+    "target": "ES2024",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
+    "strict": true,
     "noEmit": true,
     "skipLibCheck": true,
-    "strict": true,
-    "target": "ES2022",
-    "types": ["node"],
-    "verbatimModuleSyntax": true
+    "allowImportingTsExtensions": true
   },
-  "include": ["extensions/**/*.ts"]
+  "include": [
+    "extensions/claude-agents/index.ts",
+    "extensions/claude-agents/src/**/*.ts",
+    "extensions/claude-agents/*.test.ts"
+  ]
 }
