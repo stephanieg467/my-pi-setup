@@ -6,7 +6,7 @@ This is the shareable part of my [Pi](https://pi.dev/) workspace: a dark GitHub-
 
 - **Claude child agents** — long-lived, background Claude Agent SDK sessions with status, transcript, cancellation, and takeover UI.
 - **Four agent roles** — worker, code reviewer, spec reviewer, and test specialist definitions for `pi-subagents`.
-- **Two included skills** — an upstream Archon workflow skill and guidance for the Claude Agent SDK extension.
+- **My skills** — skills I created and use.
 - **Ten prompt templates** — planning, implementation, review, PR writing, project handoff, and Archon/Drupal workflows.
 - **A custom theme** — `github-dark-default`, tuned around GitHub's dark palette.
 - **Safe examples** — public settings and global instructions without credentials or machine-local state.
