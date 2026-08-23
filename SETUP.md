@@ -11,8 +11,6 @@ The root Pi manifest installs these **package-native resources**:
 - every template in `prompts/`
 - the theme in `themes/`
 
-The included `skills/archon/` snapshot is not enabled automatically. Its upstream setup guide assumes Archon's own repository and Claude-oriented tools, so review and adapt it before installing it manually.
-
 Pi's package system does not install `agents/`, `AGENTS.md`, or `settings.example.json`:
 
 - `agents/` contains definitions consumed by the separately installed `pi-subagents` package.
@@ -106,7 +104,7 @@ Merge only desired keys. Keep existing package entries and private settings. Do 
 
 ## Third-party linked skills
 
-Except for the attributed Archon snapshot, this repository does not vendor the third-party skills listed in [README.md](README.md). Follow each upstream repository's installation instructions, then link or copy selected skills into `~/.pi/agent/skills/`. Linking keeps provenance clear and makes upstream updates intentional.
+This repository does not vendor the third-party skills listed in [README.md](README.md). Follow each upstream repository's installation instructions, then link or copy selected skills into `~/.pi/agent/skills/`. Linking keeps provenance clear and makes upstream updates intentional.
 
 ## Update
 
