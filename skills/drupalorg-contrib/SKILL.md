@@ -1,6 +1,7 @@
 ---
 name: drupalorg-contrib
 description: File and search Drupal.org contrib project issues and merge requests via the git.drupalcode.org GitLab API. Use this whenever the user wants to search a Drupal.org issue queue (for duplicates of a local patch, existing fixes, or related bugs), create an upstream issue, contribute a patch upstream, or open a merge request against a Drupal contrib module (e.g. canvas, webform, pathauto).
+disable-model-invocation: true
 ---
 
 # Drupal.org contrib: search, issue, and MR workflow
