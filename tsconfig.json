@@ -11,6 +11,9 @@
   "include": [
     "extensions/claude-agents/index.ts",
     "extensions/claude-agents/src/**/*.ts",
-    "extensions/claude-agents/*.test.ts"
+    "extensions/claude-agents/*.test.ts",
+    "extensions/file-search/index.ts",
+    "extensions/file-search/src/**/*.ts",
+    "extensions/file-search/*.spec.ts"
   ]
 }

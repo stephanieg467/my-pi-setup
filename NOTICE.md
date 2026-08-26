@@ -8,5 +8,6 @@ The following resources were adapted from [davis7dotsh/my-pi-setup](https://gith
 
 - `themes/github-dark-default.json`
 - `extensions/claude-agents/`, derived from the upstream subagents extension and adapted to use the Claude Agent SDK
+- `extensions/file-search/`
 
 Ben's repository did not include a license when this setup was prepared. These upstream-derived portions are not covered by Stephanie's MIT grant below. Preserve this notice and confirm the upstream terms before redistributing them outside GitHub's repository-forking features.

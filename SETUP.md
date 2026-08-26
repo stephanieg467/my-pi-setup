@@ -7,6 +7,7 @@ This repository separates resources Pi can install as a package from personal co
 The root Pi manifest installs these **package-native resources**:
 
 - `extensions/claude-agents/index.ts`
+- `extensions/file-search/index.ts`
 - `skills/claude-agent-sdk/`
 - every template in `prompts/`
 - the theme in `themes/`
@@ -54,6 +55,10 @@ pi install -l git:github.com/stephanieg467/my-pi-setup
 ```
 
 That writes to `.pi/settings.json`; inspect it before committing it for a team.
+
+## File-search tools
+
+The `file-search` extension registers `fd` for file discovery and `rg` for content search. It first uses system-installed binaries (`fdfind` is also supported on Debian/Ubuntu), then checks `~/.pi/agent/bin/`. If neither is available, it downloads checksummed official binaries on supported macOS and Linux systems. Install `fd` and `rg` manually if your platform is unsupported.
 
 ## Merge the optional agent definitions
 

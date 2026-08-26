@@ -5,6 +5,7 @@ This is the shareable part of my [Pi](https://pi.dev/) workspace: a dark GitHub-
 ## What's here
 
 - **Claude child agents** — long-lived, background Claude Agent SDK sessions with status, transcript, cancellation, and takeover UI.
+- **File search** — first-class `fd` file discovery and `rg` content search tools.
 - **My skills** — skills I use when working in Pi.
 - **Two agent roles** — code reviewer, spec reviewer definitions for `pi-subagents`.
 - **Prompt templates** — Reusable markdown text snippets
@@ -16,7 +17,8 @@ This is the shareable part of my [Pi](https://pi.dev/) workspace: a dark GitHub-
 ```text
 .
 ├── agents/                    # pi-subagents agent definitions (manual merge)
-├── extensions/claude-agents/ # package-native Pi extension
+├── extensions/claude-agents/ # Claude Agent SDK extension
+├── extensions/file-search/   # fd and rg tools
 ├── prompts/                   # package-native prompt templates
 ├── skills/                    # package-native maintained skills
 ├── themes/                    # package-native custom theme
