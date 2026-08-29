@@ -7,7 +7,7 @@ This is the shareable part of my [Pi](https://pi.dev/) workspace: a dark GitHub-
 - **Ask user** — a multiple-choice question tool with a free-form answer option.
 - **Claude child agents** — long-lived, background Claude Agent SDK sessions with status, transcript, cancellation, and takeover UI.
 - **File search** — first-class `fd` file discovery and `rg` content search tools.
-- **My skills** — skills I use when working in Pi.
+- **My skills** — skills I use when working in Pi. See [my skills repo](https://github.com/stephanieg467/skills) for my custom skills.
 - **Two agent roles** — code reviewer, spec reviewer definitions for `pi-subagents`.
 - **Prompt templates** — Reusable markdown text snippets
 - **A custom theme** — `github-dark-default`, tuned around GitHub's dark palette.
