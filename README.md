@@ -4,6 +4,7 @@ This is the shareable part of my [Pi](https://pi.dev/) workspace: a dark GitHub-
 
 ## What's here
 
+- **Ask user** — a multiple-choice question tool with a free-form answer option.
 - **Claude child agents** — long-lived, background Claude Agent SDK sessions with status, transcript, cancellation, and takeover UI.
 - **File search** — first-class `fd` file discovery and `rg` content search tools.
 - **My skills** — skills I use when working in Pi.
@@ -17,6 +18,7 @@ This is the shareable part of my [Pi](https://pi.dev/) workspace: a dark GitHub-
 ```text
 .
 ├── agents/                    # pi-subagents agent definitions (manual merge)
+├── extensions/ask-user/      # Interactive multiple-choice question tool
 ├── extensions/claude-agents/ # Claude Agent SDK extension
 ├── extensions/file-search/   # fd and rg tools
 ├── prompts/                   # package-native prompt templates

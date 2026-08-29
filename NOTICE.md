@@ -7,6 +7,7 @@ This repository curates Stephanie's live Pi configuration. Some included resourc
 The following resources were adapted from [davis7dotsh/my-pi-setup](https://github.com/davis7dotsh/my-pi-setup):
 
 - `themes/github-dark-default.json`
+- `extensions/ask-user/`
 - `extensions/claude-agents/`, derived from the upstream subagents extension and adapted to use the Claude Agent SDK
 - `extensions/file-search/`
 

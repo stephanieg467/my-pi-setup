@@ -6,6 +6,7 @@ This repository separates resources Pi can install as a package from personal co
 
 The root Pi manifest installs these **package-native resources**:
 
+- `extensions/ask-user/index.ts`
 - `extensions/claude-agents/index.ts`
 - `extensions/file-search/index.ts`
 - `skills/claude-agent-sdk/`
@@ -55,6 +56,10 @@ pi install -l git:github.com/stephanieg467/my-pi-setup
 ```
 
 That writes to `.pi/settings.json`; inspect it before committing it for a team.
+
+## Ask-user tool
+
+The `ask-user` extension lets the model present one multiple-choice question with two to five options. Pi always adds a free-form answer option. The interactive picker is available in TUI mode; in other modes, the tool tells the model to ask in plain text instead.
 
 ## File-search tools
 

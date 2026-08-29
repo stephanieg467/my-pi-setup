@@ -9,6 +9,7 @@
     "allowImportingTsExtensions": true
   },
   "include": [
+    "extensions/ask-user/*.ts",
     "extensions/claude-agents/index.ts",
     "extensions/claude-agents/src/**/*.ts",
     "extensions/claude-agents/*.test.ts",
