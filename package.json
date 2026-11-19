@@ -22,7 +22,8 @@
       "./extensions/file-search/index.ts"
     ],
     "skills": [
-      "./skills/claude-agent-sdk"
+      "./skills/claude-agent-sdk",
+      "./skills/port-hooks-to-pi"
     ],
     "prompts": [
       "./prompts"
